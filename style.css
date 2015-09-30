@@ -43,6 +43,11 @@ clear:left;
 border:solid gray;
 box-shadow: 5px 5px 5px #444444;
 }
+#left nav{
+display:block;
+border:solid gray;
+}
+
 #content {
 float: middle;
 width: 800px;
