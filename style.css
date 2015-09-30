@@ -32,6 +32,9 @@ nav ol, nav li {
  #photoPageButton{
   background:rgba(255,205,52,1);
 }
+#surveyPageButton{
+background:rgba(255,205,52,1);
+}
 nav li a{
 display: inline-block;
  width: 100px;
@@ -62,11 +65,23 @@ border:solid gray;
 }
 
 #content {
+   float: middle;
+   width: 800px;
+   height: 800px;
+   margin-top: 20px;
+   margin-left:350px;
+    border-radius: 10px;
+   padding: 10px;
+   box-shadow: 5px 5px 5px #444444;
+   background: white;
+   opacity: 0.9;
+   }
+#center {
 float: middle;
 width: 800px;
 height: 800px;
 margin-top: 20px;
-margin-left:350px;
+margin-left:250px;
  border-radius: 10px;
 padding: 10px;
 box-shadow: 5px 5px 5px #444444;
