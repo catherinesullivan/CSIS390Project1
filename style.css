@@ -35,6 +35,16 @@ nav ol, nav li {
 #surveyPageButton{
 background:rgba(255,205,52,1);
 }
+
+#winnerPageButton{
+background:rgba(255,205,52,1);
+}
+#problemPageButton{
+ background:rgba(255,205,52,1);
+ }
+ #registrationPageButton{
+ background:rgba(255,205,52,1);
+ }
 nav li a{
     display: inline-block;
      width: 100px;
@@ -88,6 +98,7 @@ box-shadow: 5px 5px 5px #444444;
 background: white;
 overflow-y: scroll;
 }
+
 #aside {
 float: right;
 border:solid gray;
@@ -131,8 +142,19 @@ box-shadow: 5px 5px 5px #444444;
 
 .photoBlock{
  display:block;
- height:230px;
- width: 230px;
+ height:200px;
+ width: 200px;
  float:left;
- padding:4px;
+ padding-left:15px;
+ padding-top:15px;
+ border-radius: 5px;
+ box-shadow: 10px 10px 10px #444444;
+ transition-property: width,heightr;
+ transition: width 0.5s, height 0.5s;
+ transition-timing-function: linear;
+}
+
+.photoBlock:hover {
+width:300px;
+height:410px;
 }
