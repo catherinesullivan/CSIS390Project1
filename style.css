@@ -81,6 +81,7 @@ box-shadow: 5px 5px 5px #444444;
   background:rgba(255,205,52,1);
 }
 
+
 nav{
     margin-top: 20px;
     border-radius: 10px;
@@ -113,7 +114,10 @@ nav li a{
  
 }
 
-
+nav li a:hover{
+ -webkit-filter: blur(1px);
+ opacity:0.5;
+}
 
 .logo{
     padding-right:30px;
