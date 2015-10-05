@@ -25,6 +25,15 @@
 width:100%;
 }
 
+#left_problems
+{
+	position: fixed;
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	margin-right:4%;
+}
+
 #left{
 	float: left;
 	width: 20%;
@@ -34,6 +43,12 @@ width:100%;
 #right{
 	float:right;
 	width: 60%;
+	margin-right: 5%;
+}
+
+#right_problems{
+	float:right;
+	width: 65%;
 	margin-right: 5%;
 }
 
