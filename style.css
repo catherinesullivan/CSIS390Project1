@@ -32,7 +32,7 @@ width:100%;
 	float: left;
 	width: 15%;
 	margin-left: 2%;
-	margin-right95;
+	
 }
 
 #left{
@@ -50,7 +50,7 @@ width:100%;
 
 #right_problems{
 	float:right;
-	width: 65%;
+	width: 60%;
 	margin-right: 5%;
 }
 
@@ -151,4 +151,18 @@ nav li a:hover{
 .photoBlock:hover {
 width:350px;
 height:410px;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.description {
+	text-decoration: underline;
+	font-style: italic;
+	padding-right: 10px;
+}
+.output {
+	padding-left: 75px;
 }
