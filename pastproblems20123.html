@@ -20,10 +20,7 @@
 </nav>
 
 <div class="mainpagewithside" id="left_problems">
-	<a href="pastproblems.html">2015 Problems</a><br>
-	<a href="2014pastproblems.html">2014 Problems</a><br>
-	<a href="2013pastproblems.html">2013 Problems</a><br>
-	<a href="pastproblems20121.html">2012 Problem 1 </a><br>
+	<a href="pastproblems.html">2012 Problem 1</a><br>
 	<a href="pastproblems20122.html">2012 Problem 2 </a><br>
 	<a href="pastproblems20123.html">2012 Problem 3 </a><br>
 	<a href="pastproblems20124.html">2012 Problem 4 </a><br>
@@ -31,49 +28,47 @@
 </div>
 
 <div class="mainpagewithside" id="right_problems">
-	<h1> Program 2: Best of Two </h1>
+	<h1> Program 3: 4 is my favorite number </h1>
 	<p>
 		<span class="description"> Background Information:</span> 
-		In this problem, you will be given two cards from a regulation 52-card deck. 
-		However, the deck has had all of its face cards (Kings, Queens, and Jacks) removed.
-		Your job will be to decide which card is greater.  When comparing two cards,
-		Aces are high, and twos are low.  The card values will range from [1, 10], with 1 
-		for an Ace, 2 for a Two, etc.
-		If two cards have the same value, the suits will be 
-		compared according to the following standard:
-	
-		<center><code> CLUBS&lt;DIAMONDS&lt;HEARTS&lt;SPADES </code></center>
-	<p>
-		These four suits will be represented by C, D, H, and S respectively. 
-		You will not be given the same card twice as input.
-		Your output will be the name of the higher card, in
-		text form (all capital letters) with one space between each word.
+		The author of this problem states that the number 4 is his favorite number.  
 	</p>
-	<img src = "resource/problems2012/31.png"></img>
+	<p>
+		Given two integers x and y,
+		your program will find the sum of all
+		integers, between x and y (inclusive), 
+		whose digits exactly sum up to the number four.  The numbers
+		4, 121, 103 and 4000 are valid numbers for a summation, while 
+		41, 5364, and 255 are not.  
+	</p>
+	
 		<span class="description"> Programming Problem:</span>
 		<br>
 		<p>
-			Input:		An integer and a suit character, followed by another integer and a suit
-				character all on one line, separated by spaces.
-	
-	Output:	The higher of the two cards, in text format.
+			Input:		Two positive integers x and y, where y ≤ 1 billion, and where x ≤ y.  
+		<br>
+			Output:	The <i>sum</i> of the numbers z on the interval [x, y] such that the digits of z
+			add up exactly to the number 4.
+
 	</p>
 	<p>
-	Example 1:	Input:	1 H 2 D <br>
-	    <span class = "output">Output: ACE OF HEARTS</span>
+	Example 1:	Input:	4 9<br>
+	    <span class = "output">Output: 4</span>
 		<br><br>
 	
-	Example 2:	Input:	7 S 7 H<br>
-		<span class = "output">Output: SEVEN OF SPADES </span>
+	Example 2:	Input:	7 237<br>
+		<span class = "output">Output: 1205 </span>
 		<br><br>
 		
-	Example 3:	Input:	3 H 3 C<br>
-		<span class = "output">Output: THREE OF CLUBS</span>
+	Example 3:	Input:	57 186340292<br>
+		<span class = "output">Output: 14333333200 </span>
 		<br><br>
 		
-	Example 2:	Input:	10 D 8 H<br>
-		<span class = "output">Output: TEN OF DIAMONDS </span><br>
+	Example 4:	Input:	57 186340292<br>
+		<span class = "output">Output: 0</span><br>
 
+		<br><br>
+		<center><img class = "prg3" src= "resource/problems2012/31.png"><img><center>
 	</p>
 </div>
 </body>

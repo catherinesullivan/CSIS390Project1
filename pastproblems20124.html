@@ -20,10 +20,7 @@
 </nav>
 
 <div class="mainpagewithside" id="left_problems">
-	<a href="pastproblems.html">2015 Problems</a><br>
-	<a href="2014pastproblems.html">2014 Problems</a><br>
-	<a href="2013pastproblems.html">2013 Problems</a><br>
-	<a href="pastproblems20121.html">2012 Problem 1 </a><br>
+	<a href="pastproblems.html">2012 Problem 1</a><br>
 	<a href="pastproblems20122.html">2012 Problem 2 </a><br>
 	<a href="pastproblems20123.html">2012 Problem 3 </a><br>
 	<a href="pastproblems20124.html">2012 Problem 4 </a><br>
@@ -31,49 +28,59 @@
 </div>
 
 <div class="mainpagewithside" id="right_problems">
-	<h1> Program 2: Best of Two </h1>
+	<h1> Program 4: Calculator Palindromes</h1>
 	<p>
 		<span class="description"> Background Information:</span> 
-		In this problem, you will be given two cards from a regulation 52-card deck. 
-		However, the deck has had all of its face cards (Kings, Queens, and Jacks) removed.
-		Your job will be to decide which card is greater.  When comparing two cards,
-		Aces are high, and twos are low.  The card values will range from [1, 10], with 1 
-		for an Ace, 2 for a Two, etc.
-		If two cards have the same value, the suits will be 
-		compared according to the following standard:
-	
-		<center><code> CLUBS&lt;DIAMONDS&lt;HEARTS&lt;SPADES </code></center>
-	<p>
-		These four suits will be represented by C, D, H, and S respectively. 
-		You will not be given the same card twice as input.
-		Your output will be the name of the higher card, in
-		text form (all capital letters) with one space between each word.
+		A number which is palindromic is a number which is 
+		the same when read either from left to right or from right to left.
+		For example, 9, 11 and 121 are numeric palindromes, while 10 is 
+		not (no leading zeroes allowed).  A calculator palindrome is a
+		number which is the same when read left to right on a calculator 
+		as well as left on a calculator inverted (upside-down).  Flip this
+		page upside down to see what each digit is converted to when turned
+		upside down.
 	</p>
-	<img src = "resource/problems2012/31.png"></img>
+	<center><img class = "prg4" src = "resource/problems2012/41.png"></img></center>
 		<span class="description"> Programming Problem:</span>
 		<br>
 		<p>
-			Input:		An integer and a suit character, followed by another integer and a suit
-				character all on one line, separated by spaces.
+			In this problem, you will write a program that
+			calculate the number of calculator palindromes 
+			between two input numbers x and y inclusive, where x ≤ y.
+			As a clarification, a one digit (“1”) upside down is still
+			a one digit, even though it is not exactly its inverted image. 
+			For example, 62258011085229 is a calculator palindrome.
+		</p>
+		<p>
+			Input:		Two non-negative numbers x, y at most 1 million.
+				<br>
 	
-	Output:	The higher of the two cards, in text format.
+	Output:	The number of calculator primes on the interval [x, y].
 	</p>
 	<p>
-	Example 1:	Input:	1 H 2 D <br>
-	    <span class = "output">Output: ACE OF HEARTS</span>
+	Example 1:	Input:	0 2 <br>
+	    <span class = "output">Output: 3</span>
 		<br><br>
 	
-	Example 2:	Input:	7 S 7 H<br>
-		<span class = "output">Output: SEVEN OF SPADES </span>
+	Example 2:	Input:	10 100<br>
+		<span class = "output">Output: 6 </span>
 		<br><br>
 		
-	Example 3:	Input:	3 H 3 C<br>
-		<span class = "output">Output: THREE OF CLUBS</span>
+	Example 3:	Input:	1000 10000<br>
+		<span class = "output">Output: 42</span>
 		<br><br>
 		
-	Example 2:	Input:	10 D 8 H<br>
-		<span class = "output">Output: TEN OF DIAMONDS </span><br>
+	Example 4:	Input:	36748 41221<br>
+		<span class = "output">Output: 0 </span><br>
 
+	</p>
+	<center>
+	<img class = "calcpic" src = "resource/problems2012/42.png"><img>
+	<br>
+	<img class = "calcpic" src = "resource/problems2012/43.png"><img>
+	</center>
+	<p>
+		
 	</p>
 </div>
 </body>
