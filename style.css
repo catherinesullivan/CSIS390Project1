@@ -36,12 +36,12 @@ width:100%;
 }
 
 #left{
-	position: fixed;
+	
 	float: left;
 	width: 20%;
 	margin-left: 2%;
 	margin-right:4%;
-    opacity:0.9;
+    	opacity:0.9;
 }
 
 #right {
