@@ -207,11 +207,11 @@ h1 {
 	border-style: solid;
 	border-radius: 4px;
 	padding: 5px;
-	width: 35px;
+	width: 38px;
 	background-color: gold;
 	color: green;
 	font-family: 'Lobster', cursive;
-	
+	text-align: center;
 }
 
 .leftyearcolumn{
@@ -245,6 +245,7 @@ padding-left: 5%;
 	background-color: gold;
 	color: green;
 	font-family: 'Lobster', cursive;
+	text-align: center;
 }
 
 .sidewinnerslinks, .sideproblemslist{
@@ -298,3 +299,32 @@ padding-left: 5%;
 .hProblemBar li:hover{
 	 opacity:0.5;
 }
+
+table{
+	border-spacing: 0px;
+}
+
+thead{
+	border: collapse;
+	border-color: green;
+}
+td{
+	border-top-color: green;
+	border-left-color: gold;
+	border-bottom-color: green;
+	border-right-color: gold;
+	border-width: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background: linear-gradient(to bottom, #CCFF66, white);
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
