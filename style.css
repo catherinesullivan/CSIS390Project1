@@ -167,4 +167,49 @@ h1 {
 	padding-left: 75px;
 }
 
+.year{
+	text-decoration: none;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 5px;
+	width: 35px;
+	background-color: gold;
+	color: green;
+	font-family: 'Lobster', cursive;
+	
+}
 
+.leftyearcolumn{
+float: left;	
+padding-right: 5%;
+padding-left: 5%;
+}
+
+.rightyearcolumn{
+float:left;	
+padding-left: 5%;
+}
+
+.nocontest{
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+}
+
+.top3{
+	font-family: 'Lobster', cursive;
+}
+
+.results{
+	text-decoration: none;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	background-color: gold;
+	color: green;
+	font-family: 'Lobster', cursive;
+}
