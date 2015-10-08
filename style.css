@@ -28,20 +28,28 @@ width:100%;
 
 #left_problems
 {
-	position: fixed;
 	float: left;
-	width: 15%;
-	margin-left: 2%;
+	width: 20%;
+	margin-left: 1%;
 	
 }
 
 #left{
-	position: fixed;
+	
 	float: left;
 	width: 20%;
 	margin-left: 2%;
 	margin-right:4%;
-    opacity:0.9;
+    	opacity:0.9;
+}
+
+
+#left_winners{
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-right:4%;
+    	opacity:0.9;
 }
 
 #right {
@@ -199,11 +207,11 @@ h1 {
 	border-style: solid;
 	border-radius: 4px;
 	padding: 5px;
-	width: 35px;
+	width: 38px;
 	background-color: gold;
 	color: green;
 	font-family: 'Lobster', cursive;
-	
+	text-align: center;
 }
 
 .leftyearcolumn{
@@ -237,15 +245,16 @@ padding-left: 5%;
 	background-color: gold;
 	color: green;
 	font-family: 'Lobster', cursive;
+	text-align: center;
 }
 
-.sidewinnerslinks{
+.sidewinnerslinks, .sideproblemslist{
 	list-style-type: none;
 	margin:0;
 	padding:0;
 }
 
-.sidewinnerslinks a{
+.sidewinnerslinks a, .sideproblemslist a{
 	display: block;
 	font-weight: bold;
 	width: 120px;
@@ -257,8 +266,65 @@ padding-left: 5%;
 .sidewinnerslinks a:hover, a:active{
 	background-color: #E0E0D1;
 }
+.sideproblemslist a:hover, a:active{
+	background-color: #E0E0D1;
+}
 
-
-.sidewinnerslinks li{
+.sidewinnerslinks li, .sideproblemslist li{
 	float: left;
 }
+
+
+.hProblemBar ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.hProblemBar a{
+	text-decoration: none;
+}
+
+.hProblemBar li{
+	display: inline-block;
+    width: 100px;
+    border: 1px solid #FFFFC2;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFFF94, white);
+}
+
+.hProblemBar li:hover{
+	 opacity:0.5;
+}
+
+table{
+	border-spacing: 0px;
+}
+
+thead{
+	border: collapse;
+	border-color: green;
+}
+td{
+	border-top-color: green;
+	border-left-color: gold;
+	border-bottom-color: green;
+	border-right-color: gold;
+	border-width: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background: linear-gradient(to bottom, #CCFF66, white);
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
