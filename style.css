@@ -188,7 +188,6 @@ height:410px;
 
 h1 {
 	text-align: center;
-	text-decoration: underline;
 }
 
 .description {
@@ -323,7 +322,14 @@ td{
     font-family: 'Lobster', cursive;
 }
 
-
+.submitButton{
+ border-radius: 3px;
+ width:100px;
+ height:50px;
+ font:1.4em 'Century Gothic';
+ background: linear-gradient(to bottom, gray, white);;
+ padding: 1px;
+}
 
 
 
